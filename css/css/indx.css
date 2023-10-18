@@ -1,0 +1,55 @@
+@import url(common.css);
+
+main {
+  max-width: 1110px;
+  width: 97.36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main section ul div {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+main section ul div {
+  margin-bottom: 67px;
+}
+
+main h2 {
+  font-family: "Kaisei Tokumin", serif;
+  border-top: 2px solid #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+main section p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 53px;
+  margin-bottom: 67px;
+  border-bottom: 3px solid #6a6a6a;
+}
+
+main section .sitabana li {
+  padding-bottom: 50px;
+}
+
+main aside p {
+  border-top: 3px solid #6a6a6a;
+  padding-top: 77px;
+  padding-bottom: 57px;
+}
+
+main aside p a:hover {
+  opacity: 0.7;
+}

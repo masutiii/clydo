@@ -1,0 +1,87 @@
+@import url(common.css);
+
+/* 本日のメニュー */
+main h1 {
+  font-family: "Kaisei Tokumin", serif;
+  height: 117px;
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url(../../img/honnjituno_menyuu.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 67px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  max-width: 1110px;
+  width: 97.36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* メニュー外枠の囲い */
+main article section {
+  /* width: 540px; */
+  border: 2px solid #4a4a4a;
+  padding: 44px 30px;
+  margin-bottom: 67px;
+  flex-basis: 48.64%;
+}
+
+/* 料理名太文字 */
+main article section h2 {
+  height: 84px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 22px;
+  padding-bottom: 11px;
+  background-image: url(../../img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+/* 料理説明文 */
+main article section .setumeibunn {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 22px;
+  padding-bottom: 12px;
+}
+
+/* 料理値段 */
+main article section .enn {
+  font-size: 24px;
+  padding-bottom: 19px;
+}
+
+/* 料理下リンクボタン */
+main article section p a {
+  color: #fffdf8;
+  font-size: 18px;
+  background-color: #6b5311;
+  display: block;
+  max-width: 350px;
+  padding: 16.5px;
+  margin: 0 auto;
+  background-image: url(../../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: center right 24px;
+}
+/* リンクボタン「ホバー」 */
+main article section p a:hover {
+  opacity: 0.7;
+}
+main aside p {
+  margin-bottom: 67px;
+}
+
+/* メニューのボックス解除 */
+@media (max-width: 991px) {
+  article {
+    display: block;
+  }
+}
