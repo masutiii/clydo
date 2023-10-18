@@ -25,7 +25,7 @@ header h1 {
 
 /* メニュー */
 nav.menyuuu {
-  border-top: 2px solid #6a6a6a;
+  border-top: 2px solid #ff0000;
   border-bottom: 2px solid #6a6a6a;
   margin-bottom: 67px;
   /* ↓ポジション固定 */
